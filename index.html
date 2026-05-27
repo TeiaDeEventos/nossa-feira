@@ -997,7 +997,9 @@
         border-radius: 2px;
       }
 
-      .experiencia-section { background: var(--verde); }
+      .experiencia-section {
+        background: var(--verde);
+      }
       .experiencia-grid {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
@@ -1020,7 +1022,9 @@
         min-height: 220px;
         transition: transform 0.5s ease;
       }
-      .exp-card:hover img { transform: scale(1.05); }
+      .exp-card:hover img {
+        transform: scale(1.05);
+      }
       .exp-card-overlay {
         position: absolute;
         inset: 0;
@@ -1050,11 +1054,23 @@
         line-height: 1.45;
         color: rgba(237, 232, 217, 0.75);
       }
-      .exp-card.span-7 { grid-column: span 7; min-height: 320px; }
-      .exp-card.span-5 { grid-column: span 5; }
-      .exp-card.span-4 { grid-column: span 4; }
-      .exp-card.span-6 { grid-column: span 6; }
-      .exp-card.span-8 { grid-column: span 8; min-height: 280px; }
+      .exp-card.span-7 {
+        grid-column: span 7;
+        min-height: 320px;
+      }
+      .exp-card.span-5 {
+        grid-column: span 5;
+      }
+      .exp-card.span-4 {
+        grid-column: span 4;
+      }
+      .exp-card.span-6 {
+        grid-column: span 6;
+      }
+      .exp-card.span-8 {
+        grid-column: span 8;
+        min-height: 280px;
+      }
       .experiencia-fechamento {
         margin-top: 2.5rem;
         padding: 2rem 2.2rem;
@@ -1076,14 +1092,29 @@
         .exp-card.span-5,
         .exp-card.span-4,
         .exp-card.span-6,
-        .exp-card.span-8 { grid-column: span 12; }
+        .exp-card.span-8 {
+          grid-column: span 12;
+        }
       }
-      .novidades-section { background: var(--creme); color: var(--preto); }
-      .novidades-section .section-label { color: var(--verde-med); }
-      .novidades-section .section-label::before { background: var(--verde-lt); }
-      .novidades-section .section-title { color: var(--preto); }
-      .novidades-section .section-text { color: rgba(26, 26, 26, 0.65); }
-      .novidades-section .section-text strong { color: var(--preto); }
+      .novidades-section {
+        background: var(--creme);
+        color: var(--preto);
+      }
+      .novidades-section .section-label {
+        color: var(--verde-med);
+      }
+      .novidades-section .section-label::before {
+        background: var(--verde-lt);
+      }
+      .novidades-section .section-title {
+        color: var(--preto);
+      }
+      .novidades-section .section-text {
+        color: rgba(26, 26, 26, 0.65);
+      }
+      .novidades-section .section-text strong {
+        color: var(--preto);
+      }
       .novidades-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -1091,7 +1122,9 @@
         margin-top: 3rem;
       }
       @media (max-width: 768px) {
-        .novidades-grid { grid-template-columns: 1fr; }
+        .novidades-grid {
+          grid-template-columns: 1fr;
+        }
       }
       .novidade-card {
         background: var(--creme-lt);
@@ -1101,8 +1134,15 @@
         display: flex;
         flex-direction: column;
       }
-      .novidade-card img { width: 100%; height: 200px; object-fit: cover; }
-      .novidade-body { padding: 2rem; flex: 1; }
+      .novidade-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      .novidade-body {
+        padding: 2rem;
+        flex: 1;
+      }
       .novidade-tag {
         display: inline-block;
         font-family: "DM Sans", sans-serif;
@@ -1129,9 +1169,17 @@
         line-height: 1.65;
         color: rgba(26, 26, 26, 0.72);
       }
-      .novidade-card ul { margin-top: 0.8rem; padding-left: 1.1rem; }
-      .novidade-card a { color: var(--verde-med); font-weight: 500; }
-      .gastronomia-section { background: var(--verde-med); }
+      .novidade-card ul {
+        margin-top: 0.8rem;
+        padding-left: 1.1rem;
+      }
+      .novidade-card a {
+        color: var(--verde-med);
+        font-weight: 500;
+      }
+      .gastronomia-section {
+        background: var(--verde-med);
+      }
       .gastronomia-layout {
         display: grid;
         grid-template-columns: 1fr 1.1fr;
@@ -1140,7 +1188,9 @@
         align-items: center;
       }
       @media (max-width: 768px) {
-        .gastronomia-layout { grid-template-columns: 1fr; }
+        .gastronomia-layout {
+          grid-template-columns: 1fr;
+        }
       }
       .gastronomia-visual {
         position: relative;
@@ -1187,11 +1237,22 @@
         border-radius: 2px;
         color: var(--creme);
       }
-      .estande-section { background: var(--creme); color: var(--preto); }
-      .estande-section .section-label { color: var(--verde-med); }
-      .estande-section .section-label::before { background: var(--verde-lt); }
-      .estande-section .section-title { color: var(--preto); }
-      .estande-section .section-text { color: rgba(26, 26, 26, 0.65); }
+      .estande-section {
+        background: var(--creme);
+        color: var(--preto);
+      }
+      .estande-section .section-label {
+        color: var(--verde-med);
+      }
+      .estande-section .section-label::before {
+        background: var(--verde-lt);
+      }
+      .estande-section .section-title {
+        color: var(--preto);
+      }
+      .estande-section .section-text {
+        color: rgba(26, 26, 26, 0.65);
+      }
       .estande-layout {
         display: grid;
         grid-template-columns: 1.15fr 1fr;
@@ -1200,16 +1261,28 @@
         align-items: start;
       }
       @media (max-width: 768px) {
-        .estande-layout { grid-template-columns: 1fr; }
+        .estande-layout {
+          grid-template-columns: 1fr;
+        }
       }
       .estande-photo {
         border-radius: 4px;
         overflow: hidden;
         border: 1px solid rgba(44, 74, 46, 0.15);
       }
-      .estande-photo img { width: 100%; display: block; object-fit: cover; }
-      .estande-listas { display: grid; gap: 1.5rem; }
-      .estande-box { padding: 1.6rem 1.8rem; border-radius: 4px; }
+      .estande-photo img {
+        width: 100%;
+        display: block;
+        object-fit: cover;
+      }
+      .estande-listas {
+        display: grid;
+        gap: 1.5rem;
+      }
+      .estande-box {
+        padding: 1.6rem 1.8rem;
+        border-radius: 4px;
+      }
       .estande-box.incluso {
         background: rgba(44, 74, 46, 0.08);
         border: 1px solid rgba(44, 74, 46, 0.2);
@@ -1227,8 +1300,13 @@
         margin-bottom: 0.9rem;
         color: var(--verde);
       }
-      .estande-box.nao-incluso h4 { color: var(--terracota); }
-      .estande-box ul { list-style: none; padding: 0; }
+      .estande-box.nao-incluso h4 {
+        color: var(--terracota);
+      }
+      .estande-box ul {
+        list-style: none;
+        padding: 0;
+      }
       .estande-box li {
         font-family: "DM Sans", sans-serif;
         font-size: 0.95rem;
@@ -1258,11 +1336,19 @@
         margin-top: 3rem;
       }
       @media (max-width: 900px) {
-        .galeria-mosaic { grid-template-columns: repeat(2, 1fr); }
+        .galeria-mosaic {
+          grid-template-columns: repeat(2, 1fr);
+        }
       }
-      .galeria-mosaic .galeria-item { min-height: 0; }
-      .galeria-mosaic .galeria-item.wide { grid-column: span 2; }
-      .galeria-mosaic .galeria-item.tall { grid-row: span 2; }
+      .galeria-mosaic .galeria-item {
+        min-height: 0;
+      }
+      .galeria-mosaic .galeria-item.wide {
+        grid-column: span 2;
+      }
+      .galeria-mosaic .galeria-item.tall {
+        grid-row: span 2;
+      }
       .contato-card.destaque {
         border-color: var(--terracota);
         background: rgba(196, 133, 106, 0.12);
@@ -1298,9 +1384,10 @@
 
         <p class="hero-sub">
           O maior evento de varejo de Nova Friburgo está chegando na sua
-          <strong>3ª edição</strong>, com mais de <strong>100 expositores</strong>,
-          26 anos de experiência da Teia de Eventos e muito mais negócios —
-          tudo feito com a cara e o coração de Friburgo.
+          <strong>3ª edição</strong>, com mais de
+          <strong>100 expositores</strong>, 26 anos de experiência da Teia de
+          Eventos e muito mais negócios — tudo feito com a cara e o coração de
+          Friburgo.
           <strong>Seja parte.</strong>
         </p>
 
@@ -1369,8 +1456,8 @@
         <div class="number-card">
           <span class="number-big">100<span>+</span></span>
           <span class="number-desc"
-            >expositores na 3ª edição, com representação de múltiplos segmentos da
-            cidade e região</span
+            >expositores na 3ª edição, com representação de múltiplos segmentos
+            da cidade e região</span
           >
         </div>
         <div class="number-card">
@@ -1403,51 +1490,93 @@
       </div>
       <div class="experiencia-grid reveal">
         <article class="exp-card span-7">
-          <img src="images/marcas-locais.png" alt="Corredor de estandes com marcas de moda" loading="lazy" />
+          <img
+            src="images/marcas-locais.png"
+            alt="Corredor de estandes com marcas de moda"
+            loading="lazy"
+          />
           <div class="exp-card-overlay">
             <h3>Produtos com preços abaixo do varejo tradicional</h3>
-            <p>Ofertas direto de fábrica e atacado, com condições que você não encontra no shopping.</p>
+            <p>
+              Ofertas direto de fábrica e atacado, com condições que você não
+              encontra no shopping.
+            </p>
           </div>
         </article>
         <article class="exp-card span-5">
-          <img src="images/corredor-feira.png" alt="Público circulando entre estandes" loading="lazy" />
+          <img
+            src="images/corredor-feira.png"
+            alt="Público circulando entre estandes"
+            loading="lazy"
+          />
           <div class="exp-card-overlay">
             <h3>Marcas locais e regionais com curadoria</h3>
-            <p>Empresas friburguenses e da Serra em destaque, com identidade e qualidade.</p>
+            <p>
+              Empresas friburguenses e da Serra em destaque, com identidade e
+              qualidade.
+            </p>
           </div>
         </article>
         <article class="exp-card span-4">
-          <img src="images/experiencias.png" alt="Expositores interagindo com o público" loading="lazy" />
+          <img
+            src="images/experiencias.png"
+            alt="Expositores interagindo com o público"
+            loading="lazy"
+          />
           <div class="exp-card-overlay">
             <h3>Experiências interativas</h3>
-            <p>Encontros, ativações e momentos que conectam marcas e visitantes.</p>
+            <p>
+              Encontros, ativações e momentos que conectam marcas e visitantes.
+            </p>
           </div>
         </article>
         <article class="exp-card span-4">
-          <img src="images/praca-alimentacao.png" alt="Praça de alimentação com público" loading="lazy" />
+          <img
+            src="images/praca-alimentacao.png"
+            alt="Praça de alimentação com público"
+            loading="lazy"
+          />
           <div class="exp-card-overlay">
             <h3>Área gastronômica com comida de verdade</h3>
-            <p>Praça de alimentação ampla, com opções para todos os gostos e momentos.</p>
+            <p>
+              Praça de alimentação ampla, com opções para todos os gostos e
+              momentos.
+            </p>
           </div>
         </article>
         <article class="exp-card span-4">
-          <img src="images/espaco-kids.png" alt="Apresentação da Banda Miosótis no evento" loading="lazy" />
+          <img
+            src="images/espaco-kids.png"
+            alt="Apresentação da Banda Miosótis no evento"
+            loading="lazy"
+          />
           <div class="exp-card-overlay">
             <h3>Espaço kids com programação especial</h3>
-            <p>Diversão garantida para a família, com atrações pensadas para as crianças.</p>
+            <p>
+              Diversão garantida para a família, com atrações pensadas para as
+              crianças.
+            </p>
           </div>
         </article>
         <article class="exp-card span-8">
-          <img src="images/show-banda.png" alt="Show ao vivo na praça de alimentação" loading="lazy" />
+          <img
+            src="images/show-banda.png"
+            alt="Show ao vivo na praça de alimentação"
+            loading="lazy"
+          />
           <div class="exp-card-overlay">
             <h3>Shows e atrações culturais gratuitas</h3>
-            <p>Música ao vivo, bandas e programação cultural para estender a visita.</p>
+            <p>
+              Música ao vivo, bandas e programação cultural para estender a
+              visita.
+            </p>
           </div>
         </article>
       </div>
       <p class="experiencia-fechamento reveal">
-        <strong>Área gastronômica com comida de verdade</strong> — tudo pensado para
-        aumentar o tempo de permanência e, principalmente, o volume de compras.
+        <strong>Área gastronômica com comida de verdade</strong> — tudo pensado
+        para aumentar o tempo de permanência e, principalmente, o volume de
+        compras.
       </p>
     </section>
 
@@ -1687,13 +1816,15 @@
     <section class="novidades-section">
       <div class="reveal">
         <div class="section-label">Grandes novidades · 3ª edição</div>
-        <h2 class="section-title">Diferenciais que <em>movimentam</em> Friburgo.</h2>
+        <h2 class="section-title">
+          Diferenciais que <em>movimentam</em> Friburgo.
+        </h2>
         <p class="section-text">
           A 26ª temporada da Teia de Eventos traz duas novidades de peso para
           ampliar público, negócios e visibilidade da Nossa Feira.
         </p>
       </div>
-      <div class="novidades-grid reveal">
+      <!-- <div class="novidades-grid reveal">
         <article class="novidade-card">
           <img src="images/identidade-feira.png" alt="Identidade visual da Nossa Feira com apoio do SEBRAE" loading="lazy" />
           <div class="novidade-body">
@@ -1728,26 +1859,37 @@
             </p>
           </div>
         </article>
-      </div>
+      </div> -->
     </section>
 
     <!-- ═══════════════════ GASTRONOMIA ═══════════════════ -->
     <section class="gastronomia-section">
       <div class="gastronomia-layout reveal">
         <div class="gastronomia-visual">
-          <img src="images/praca-alimentacao.png" alt="Praça de alimentação da Nossa Feira" loading="lazy" />
+          <img
+            src="images/praca-alimentacao.png"
+            alt="Praça de alimentação da Nossa Feira"
+            loading="lazy"
+          />
           <div class="gastronomia-visual-secondary">
-            <img src="images/gastronomia-social.png" alt="Público na praça de alimentação" loading="lazy" />
+            <img
+              src="images/gastronomia-social.png"
+              alt="Público na praça de alimentação"
+              loading="lazy"
+            />
           </div>
         </div>
         <div>
           <div class="section-label">Praça de alimentação</div>
-          <h2 class="section-title">Variedades <em>infinitas</em> de sabores.</h2>
+          <h2 class="section-title">
+            Variedades <em>infinitas</em> de sabores.
+          </h2>
           <p class="section-text">
             Um dos grandes atrativos da feira: a praça de alimentação reúne o
-            melhor da culinária <strong>brasileira, japonesa, americana</strong> e
-            muito mais — comidas de verdade, porções generosas e ambiente para
-            ficar, conversar e curtir os shows gratuitos ao lado.
+            melhor da culinária
+            <strong>brasileira, japonesa, americana</strong> e muito mais —
+            comidas de verdade, porções generosas e ambiente para ficar,
+            conversar e curtir os shows gratuitos ao lado.
           </p>
           <div class="cuisine-tags">
             <span class="cuisine-tag">Brasileira</span>
@@ -1775,7 +1917,11 @@
       </div>
       <div class="estande-layout reveal">
         <div class="estande-photo">
-          <img src="images/estande-modular.png" alt="Estande modular com carpete, iluminação e energia elétrica" loading="lazy" />
+          <img
+            src="images/estande-modular.png"
+            alt="Estande modular com carpete, iluminação e energia elétrica"
+            loading="lazy"
+          />
         </div>
         <div class="estande-listas">
           <div class="estande-box incluso">
@@ -1807,11 +1953,19 @@
       </div>
       <div class="galeria-mosaic reveal">
         <div class="galeria-item wide tall">
-          <img src="images/corredor-feira.png" alt="Corredor de estandes lotado" loading="lazy" />
+          <img
+            src="images/corredor-feira.png"
+            alt="Corredor de estandes lotado"
+            loading="lazy"
+          />
           <span class="galeria-badge">Estandes</span>
         </div>
         <div class="galeria-item">
-          <img src="images/marcas-locais.png" alt="Marcas locais" loading="lazy" />
+          <img
+            src="images/marcas-locais.png"
+            alt="Marcas locais"
+            loading="lazy"
+          />
           <span class="galeria-badge">Moda</span>
         </div>
         <div class="galeria-item">
@@ -1819,15 +1973,27 @@
           <span class="galeria-badge">Shows</span>
         </div>
         <div class="galeria-item">
-          <img src="images/show-banda.png" alt="Banda na praça" loading="lazy" />
+          <img
+            src="images/show-banda.png"
+            alt="Banda na praça"
+            loading="lazy"
+          />
           <span class="galeria-badge">Cultura</span>
         </div>
         <div class="galeria-item wide">
-          <img src="images/praca-alimentacao.png" alt="Praça de alimentação" loading="lazy" />
+          <img
+            src="images/praca-alimentacao.png"
+            alt="Praça de alimentação"
+            loading="lazy"
+          />
           <span class="galeria-badge">Gastronomia</span>
         </div>
         <div class="galeria-item">
-          <img src="images/gastronomia-social.png" alt="Público na praça" loading="lazy" />
+          <img
+            src="images/gastronomia-social.png"
+            alt="Público na praça"
+            loading="lazy"
+          />
           <span class="galeria-badge">Convívio</span>
         </div>
         <div class="galeria-item">
@@ -1835,15 +2001,27 @@
           <span class="galeria-badge">Família</span>
         </div>
         <div class="galeria-item">
-          <img src="images/experiencias.png" alt="Experiências com expositores" loading="lazy" />
+          <img
+            src="images/experiencias.png"
+            alt="Experiências com expositores"
+            loading="lazy"
+          />
           <span class="galeria-badge">Marcas</span>
         </div>
         <div class="galeria-item">
-          <img src="images/identidade-feira.png" alt="Identidade Nossa Feira" loading="lazy" />
+          <img
+            src="images/identidade-feira.png"
+            alt="Identidade Nossa Feira"
+            loading="lazy"
+          />
           <span class="galeria-badge">Nossa Feira</span>
         </div>
         <div class="galeria-item">
-          <img src="images/estande-modular.png" alt="Estande modular" loading="lazy" />
+          <img
+            src="images/estande-modular.png"
+            alt="Estande modular"
+            loading="lazy"
+          />
           <span class="galeria-badge">Expositores</span>
         </div>
       </div>
@@ -1874,10 +2052,14 @@
       </p>
 
       <div class="cta-buttons reveal">
-        <a href="https://wa.me/5522981843120?text=Ol%C3%A1%2C%20quero%20ser%20expositor%20na%20Nossa%20Feira" class="btn-primary"
+        <a
+          href="https://wa.me/5522981843120?text=Ol%C3%A1%2C%20quero%20ser%20expositor%20na%20Nossa%20Feira"
+          class="btn-primary"
           >Quero ser Expositor</a
         >
-        <a href="https://wa.me/5522981843120?text=Ol%C3%A1%2C%20quero%20ser%20patrocinador%20da%20Nossa%20Feira" class="btn-secondary"
+        <a
+          href="https://wa.me/5522981843120?text=Ol%C3%A1%2C%20quero%20ser%20patrocinador%20da%20Nossa%20Feira"
+          class="btn-secondary"
           >Quero ser Patrocinador</a
         >
       </div>
